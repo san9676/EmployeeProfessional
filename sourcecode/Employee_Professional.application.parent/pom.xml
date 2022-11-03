@@ -7,20 +7,16 @@
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-    <module>./../CommonInterface/sourcecode/CommonInterface</module>
+    <module>../CommonInterface</module>
     <module>../Employee_Professional</module>
     <module>../Employee_Professional.application</module>
   </modules>
-  <properties>
-  <!-- <deploymentConfigfile>deployment.properties</deploymentConfigfile> -->
-  <deployToAdmin>${deployment.pushToAdmin}</deployToAdmin>
-  <agentHost>${deployment.agenthost}</agentHost>
-  <agentPort>${deployment.agentport}</agentPort>
-  <domain>${deployment.domain}</domain>
-  <appSpace>${deployment.appspace}</appSpace>
-  <appNode>${deployment.appnode}</appNode>
-  <httpPort>${deployment.httpport}</httpPort>
-  <redeploy>true</redeploy>
-  <profile>${deployment.profile}</profile>
-  </properties>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>3.7.1</version>
+      </plugin>
+    </plugins>
+  </build>
 </project>
