@@ -11,12 +11,16 @@
     <module>../Employee_Professional</module>
     <module>../Employee_Professional.application</module>
   </modules>
-  <build>
-    <plugins>
-      <plugin>
-        <artifactId>maven-site-plugin</artifactId>
-        <version>3.7.1</version>
-      </plugin>
-    </plugins>
-  </build>
+  <properties>
+  <!-- <deploymentConfigfile>deployment.properties</deploymentConfigfile> -->
+  <deployToAdmin>${deployment.pushToAdmin}</deployToAdmin>
+  <agentHost>${deployment.agenthost}</agentHost>
+  <agentPort>${deployment.agentport}</agentPort>
+  <domain>${deployment.domain}</domain>
+  <appSpace>${deployment.appspace}</appSpace>
+  <appNode>${deployment.appnode}</appNode>
+  <httpPort>${deployment.httpport}</httpPort>
+  <redeploy>true</redeploy>
+  <profile>${deployment.profile}</profile>
+  </properties>
 </project>
