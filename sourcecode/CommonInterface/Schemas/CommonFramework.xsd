@@ -15,7 +15,7 @@
       		
       <element name="LogType" type="string"/>
           	
-      <element name="TransactionID" type="string"/>
+      <element name="status" type="string"/>
       		
       <element name="CorrelationID" type="string"/>
       		

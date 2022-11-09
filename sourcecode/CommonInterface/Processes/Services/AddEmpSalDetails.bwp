@@ -344,7 +344,7 @@
                         <element maxOccurs="1" minOccurs="1"
                             name="Title" nillable="true" type="string"/>
                         <element maxOccurs="1" minOccurs="1"
-                            name="CurrentSal" nillable="true" type="string"/>
+                            name="CurrentSal" nillable="true" type="float"/>
                         <element maxOccurs="1" minOccurs="1"
                             name="lastModifiedDate" nillable="true" type="string"/>
                         <element maxOccurs="1" minOccurs="0"
@@ -584,7 +584,7 @@
                                     gradientEndColor="50431"
                                     gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
                                     <element href="//0/@process/@activity/@activity/@activities.1"/>
-                                    <layoutConstraint x="203"
+                                    <layoutConstraint x="163"
                                     xsi:type="notation:Bounds" y="134"/>
                                     </children>
                                     <children type="4002">
@@ -623,7 +623,7 @@
                                     gradientEndColor="50431"
                                     gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
                                     <element href="//0/@process/@activity/@activity/@activities.2"/>
-                                    <layoutConstraint x="339"
+                                    <layoutConstraint x="296"
                                     xsi:type="notation:Bounds" y="134"/>
                                     </children>
                                     <children type="4002">
@@ -701,48 +701,7 @@
                                     gradientEndColor="50431"
                                     gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
                                     <element href="//0/@process/@activity/@activity/@activities.4"/>
-                                    <layoutConstraint x="482"
-                                    xsi:type="notation:Bounds" y="126"/>
-                                    </children>
-                                    <children type="4002 bw.internal.setSharedVariable">
-                                    <children type="4017">
-                                    <styles
-                                    fontName="Segoe UI"
-                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
-                                    <element href="//0/@process/@activity/@activity/@activities.5"/>
-                                    <layoutConstraint xsi:type="notation:Bounds"/>
-                                    </children>
-                                    <children type="4017">
-                                    <styles
-                                    fontName="Segoe UI"
-                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
-                                    <element href="//0/@process/@activity/@activity/@activities.5"/>
-                                    <layoutConstraint xsi:type="notation:Bounds"/>
-                                    </children>
-                                    <children type="4017">
-                                    <styles
-                                    fontName="Segoe UI"
-                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
-                                    <element href="//0/@process/@activity/@activity/@activities.5"/>
-                                    <layoutConstraint xsi:type="notation:Bounds"/>
-                                    </children>
-                                    <children type="4017">
-                                    <styles
-                                    fontName="Segoe UI"
-                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
-                                    <element href="//0/@process/@activity/@activity/@activities.5"/>
-                                    <layoutConstraint xsi:type="notation:Bounds"/>
-                                    </children>
-                                    <styles fontName="Segoe UI"
-                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
-                                    <styles
-                                    backgroundColor="16777215"
-                                    gradientEndColor="50431"
-                                    gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
-                                    <element href="//0/@process/@activity/@activity/@activities.5"/>
-                                    <layoutConstraint
-                                    height="40" width="40"
-                                    x="92"
+                                    <layoutConstraint x="475"
                                     xsi:type="notation:Bounds" y="134"/>
                                     </children>
                                     <children type="4002">
@@ -776,7 +735,7 @@
                                     backgroundColor="16777215"
                                     gradientEndColor="50431"
                                     gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
-                                    <element href="//0/@process/@activity/@activity/@activities.6"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.5"/>
                                     <layoutConstraint x="698"
                                     xsi:type="notation:Bounds" y="134"/>
                                     </children>
@@ -972,7 +931,7 @@
         <element href="//0"/>
         <edges
             source="//@children.0/@children.4/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0"
-            target="//@children.0/@children.4/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.5" type="4006">
+            target="//@children.0/@children.4/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1" type="4006">
             <children type="6002">
                 <layoutConstraint xsi:type="notation:Location" y="40"/>
             </children>
@@ -1004,18 +963,6 @@
             <bendpoints points="[25, 0, -139, 0]$[140, 0, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
         <edges
-            source="//@children.0/@children.4/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.5"
-            target="//@children.0/@children.4/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1" type="4006">
-            <children type="6002">
-                <layoutConstraint xsi:type="notation:Location" y="40"/>
-            </children>
-            <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
-            <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
-            <element href="//0/@process/@activity/@activity/@links/@children.3"/>
-            <bendpoints points="[0, 0, 0, 0]$[0, 0, 0, 0]" xsi:type="notation:RelativeBendpoints"/>
-            <targetAnchor id="(0.8775510204081632,0.6530612244897959)" xsi:type="notation:IdentityAnchor"/>
-        </edges>
-        <edges
             source="//@children.0/@children.4/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1"
             target="//@children.0/@children.4/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.2" type="4006">
             <children type="6002">
@@ -1023,18 +970,18 @@
             </children>
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
-            <element href="//0/@process/@activity/@activity/@links/@children.4"/>
+            <element href="//0/@process/@activity/@activity/@links/@children.3"/>
             <bendpoints points="[25, 0, -111, 0]$[112, 0, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
         <edges
             source="//@children.0/@children.4/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.3"
-            target="//@children.0/@children.4/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.6" type="4006">
+            target="//@children.0/@children.4/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.5" type="4006">
             <children type="6002">
                 <layoutConstraint xsi:type="notation:Location" y="40"/>
             </children>
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
-            <element href="//0/@process/@activity/@activity/@links/@children.5"/>
+            <element href="//0/@process/@activity/@activity/@links/@children.4"/>
             <bendpoints points="[25, 0, -67, 0]$[68, 0, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
         <edges
@@ -1068,6 +1015,8 @@
             namespace="http://www.tibco.com/namespaces/tnt/plugins/jdbc+07045964-4646-4060-9efc-949b64a1bad3+input" prefix="tns5"/>
         <tibex:namespaceItem
             namespace="http://www.tibco.com/namespaces/tnt/plugins/jdbc+66dc66ea-ef7f-49f4-8744-ccfedd3fdb73+input" prefix="tns6"/>
+        <tibex:namespaceItem
+            namespace="http://www.w3.org/2001/XMLSchema" prefix="xsd"/>
     </tibex:NamespaceRegistry>
     <bpws:import importType="http://schemas.xmlsoap.org/wsdl/"
         location="../../Service%20Descriptors/Emp_SalTitle.wsdl" namespace="http://xmlns.example.com/20221101102002"/>
@@ -1100,8 +1049,6 @@
             name="InsertSalDetails" sca-bpel:internal="true"/>
         <bpws:variable element="ns5:ActivityErrorData"
             name="_error_InsertSalDetails" sca-bpel:internal="true"/>
-        <bpws:variable name="SetTxID-input" sca-bpel:internal="true" type="xsd:string"/>
-        <bpws:variable name="SetTxID" sca-bpel:internal="true" type="xsd:string"/>
         <bpws:variable name="FaultName" sca-bpel:internal="true" type="xsd:string"/>
         <bpws:variable element="ns0:FaultDetail" name="FaultDetails" sca-bpel:internal="true"/>
         <bpws:variable element="ns2:LogExceptionHandler"
@@ -1139,7 +1086,7 @@
                         </bpws:links>
                         <bpws:extensionActivity>
                             <tibex:extActivity
-                                expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.eniquesolution.com/E-Commerce/CommonFramework&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; xmlns:tib=&quot;http://www.tibco.com/bw/xslt/custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;_processContext&quot;/>&lt;xsl:param name=&quot;operationIn&quot;/>&lt;xsl:param name=&quot;SetTxID&quot;/>&lt;xsl:param name=&quot;FaultDetails&quot;/>&lt;xsl:template name=&quot;ErrorLog-input&quot; match=&quot;/&quot;>&lt;tns:LogExceptionHandler>&lt;tns:ApplictionName>&lt;xsl:value-of select=&quot;$_processContext/ApplicationName&quot;/>&lt;/tns:ApplictionName>&lt;tns:ProcessName>&lt;xsl:value-of select=&quot;'AddEmpSalDetails'&quot;/>&lt;/tns:ProcessName>&lt;tns:LogType>&lt;xsl:value-of select=&quot;'ERROR'&quot;/>&lt;/tns:LogType>&lt;tns:TransactionID>&lt;xsl:value-of select=&quot;''&quot;/>&lt;/tns:TransactionID>&lt;tns:CorrelationID>&lt;xsl:value-of select=&quot;$SetTxID&quot;/>&lt;/tns:CorrelationID>&lt;tns:MessageType>&lt;xsl:value-of select=&quot;'ErrorDetails'&quot;/>&lt;/tns:MessageType>&lt;tns:LogMessage>&lt;xsl:value-of select=&quot;'Emp_SalTitleReq'&quot;/>&lt;/tns:LogMessage>&lt;tns:Timestamp>&lt;xsl:value-of select=&quot;current-dateTime()&quot;/>&lt;/tns:Timestamp>&lt;tns:Payload>&lt;xsl:value-of select=&quot;tib:render-xml($operationIn/parameters/tns4:Emp_SalTitleReq)&quot;/>&lt;/tns:Payload>&lt;tns:Exception>&lt;tns:MessageCode>&lt;xsl:value-of select=&quot;$FaultDetails/MsgCode&quot;/>&lt;/tns:MessageCode>&lt;tns:ExceptionMessage>&lt;xsl:value-of select=&quot;$FaultDetails/Msg&quot;/>&lt;/tns:ExceptionMessage>&lt;tns:StackTrace>&lt;xsl:value-of select=&quot;$FaultDetails/StackTrace&quot;/>&lt;/tns:StackTrace>&lt;/tns:Exception>&lt;/tns:LogExceptionHandler>&lt;/xsl:template>&lt;/xsl:stylesheet>"
+                                expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.eniquesolution.com/E-Commerce/CommonFramework&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; xmlns:tib=&quot;http://www.tibco.com/bw/xslt/custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;_processContext&quot;/>&lt;xsl:param name=&quot;operationIn&quot;/>&lt;xsl:param name=&quot;FaultDetails&quot;/>&lt;xsl:template name=&quot;ErrorLog-input&quot; match=&quot;/&quot;>&lt;tns:LogExceptionHandler>&lt;tns:ApplictionName>&lt;xsl:value-of select=&quot;$_processContext/ApplicationName&quot;/>&lt;/tns:ApplictionName>&lt;tns:ProcessName>&lt;xsl:value-of select=&quot;'AddEmpSalDetails'&quot;/>&lt;/tns:ProcessName>&lt;tns:LogType>&lt;xsl:value-of select=&quot;'ERROR'&quot;/>&lt;/tns:LogType>&lt;tns:status>&lt;xsl:value-of select=&quot;'Failed'&quot;/>&lt;/tns:status>&lt;tns:CorrelationID>&lt;xsl:value-of select=&quot;$operationIn/parameters/tns4:Emp_SalTitleReq/tns4:CorelationID&quot;/>&lt;/tns:CorrelationID>&lt;tns:MessageType>&lt;xsl:value-of select=&quot;'ErrorDetails'&quot;/>&lt;/tns:MessageType>&lt;tns:LogMessage>&lt;xsl:value-of select=&quot;'Emp_SalTitleReq'&quot;/>&lt;/tns:LogMessage>&lt;tns:Timestamp>&lt;xsl:value-of select=&quot;current-dateTime()&quot;/>&lt;/tns:Timestamp>&lt;tns:Payload>&lt;xsl:value-of select=&quot;tib:render-xml($operationIn/parameters/tns4:Emp_SalTitleReq)&quot;/>&lt;/tns:Payload>&lt;tns:Exception>&lt;tns:MessageCode>&lt;xsl:value-of select=&quot;$FaultDetails/MsgCode&quot;/>&lt;/tns:MessageCode>&lt;tns:ExceptionMessage>&lt;xsl:value-of select=&quot;$FaultDetails/Msg&quot;/>&lt;/tns:ExceptionMessage>&lt;tns:StackTrace>&lt;xsl:value-of select=&quot;$FaultDetails/StackTrace&quot;/>&lt;/tns:StackTrace>&lt;/tns:Exception>&lt;/tns:LogExceptionHandler>&lt;/xsl:template>&lt;/xsl:stylesheet>"
                                 expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"
                                 inputVariable="ErrorLog-input"
                                 name="ErrorLog"
@@ -1151,7 +1098,7 @@
                                 </bpws:sources>
                                 <tibex:inputBindings>
                                     <tibex:inputBinding coercion=""
-                                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.eniquesolution.com/E-Commerce/CommonFramework&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; xmlns:tib=&quot;http://www.tibco.com/bw/xslt/custom-functions&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:param name=&quot;operationIn.parameters&quot;/>&#xa;    &lt;xsl:param name=&quot;_processContext&quot;/>&#xa;    &lt;xsl:param name=&quot;SetTxID&quot;/>&#xa;    &lt;xsl:param name=&quot;FaultDetails&quot;/>&#xa;    &lt;xsl:template name=&quot;ErrorLog-input&quot; match=&quot;/&quot;>&#xa;        &lt;tns:LogExceptionHandler>&#xa;            &lt;tns:ApplictionName>&#xa;                &lt;xsl:value-of select=&quot;$_processContext/ApplicationName&quot;/>&#xa;            &lt;/tns:ApplictionName>&#xa;            &lt;tns:ProcessName>&#xa;                &lt;xsl:value-of select=&quot;'AddEmpSalDetails'&quot;/>&#xa;            &lt;/tns:ProcessName>&#xa;            &lt;tns:LogType>&#xa;                &lt;xsl:value-of select=&quot;'ERROR'&quot;/>&#xa;            &lt;/tns:LogType>&#xa;            &lt;tns:TransactionID>&#xa;                &lt;xsl:value-of select=&quot;''&quot;/>&#xa;            &lt;/tns:TransactionID>&#xa;            &lt;tns:CorrelationID>&#xa;                &lt;xsl:value-of select=&quot;$SetTxID&quot;/>&#xa;            &lt;/tns:CorrelationID>&#xa;            &lt;tns:MessageType>&#xa;                &lt;xsl:value-of select=&quot;'ErrorDetails'&quot;/>&#xa;            &lt;/tns:MessageType>&#xa;            &lt;tns:LogMessage>&#xa;                &lt;xsl:value-of select=&quot;'Emp_SalTitleReq'&quot;/>&#xa;            &lt;/tns:LogMessage>&#xa;            &lt;tns:Timestamp>&#xa;                &lt;xsl:value-of select=&quot;current-dateTime()&quot;/>&#xa;            &lt;/tns:Timestamp>&#xa;            &lt;tns:Payload>&#xa;                &lt;xsl:value-of select=&quot;tib:render-xml($operationIn.parameters)&quot;/>&#xa;            &lt;/tns:Payload>&#xa;            &lt;tns:Exception>&#xa;                &lt;tns:MessageCode>&#xa;                    &lt;xsl:value-of select=&quot;$FaultDetails/MsgCode&quot;/>&#xa;                &lt;/tns:MessageCode>&#xa;                &lt;tns:ExceptionMessage>&#xa;                    &lt;xsl:value-of select=&quot;$FaultDetails/Msg&quot;/>&#xa;                &lt;/tns:ExceptionMessage>&#xa;                &lt;tns:StackTrace>&#xa;                    &lt;xsl:value-of select=&quot;$FaultDetails/StackTrace&quot;/>&#xa;                &lt;/tns:StackTrace>&#xa;            &lt;/tns:Exception>&#xa;        &lt;/tns:LogExceptionHandler>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.eniquesolution.com/E-Commerce/CommonFramework&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; xmlns:tib=&quot;http://www.tibco.com/bw/xslt/custom-functions&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:param name=&quot;operationIn.parameters&quot;/>&#xa;    &lt;xsl:param name=&quot;_processContext&quot;/>&#xa;    &lt;xsl:param name=&quot;FaultDetails&quot;/>&#xa;    &lt;xsl:template name=&quot;ErrorLog-input&quot; match=&quot;/&quot;>&#xa;        &lt;tns:LogExceptionHandler>&#xa;            &lt;tns:ApplictionName>&#xa;                &lt;xsl:value-of select=&quot;$_processContext/ApplicationName&quot;/>&#xa;            &lt;/tns:ApplictionName>&#xa;            &lt;tns:ProcessName>&#xa;                &lt;xsl:value-of select=&quot;'AddEmpSalDetails'&quot;/>&#xa;            &lt;/tns:ProcessName>&#xa;            &lt;tns:LogType>&#xa;                &lt;xsl:value-of select=&quot;'ERROR'&quot;/>&#xa;            &lt;/tns:LogType>&#xa;            &lt;tns:status>&#xa;                &lt;xsl:value-of select=&quot;'Failed'&quot;/>&#xa;            &lt;/tns:status>&#xa;            &lt;tns:CorrelationID>&#xa;                &lt;xsl:value-of select=&quot;$operationIn.parameters/tns4:CorelationID&quot;/>&#xa;            &lt;/tns:CorrelationID>&#xa;            &lt;tns:MessageType>&#xa;                &lt;xsl:value-of select=&quot;'ErrorDetails'&quot;/>&#xa;            &lt;/tns:MessageType>&#xa;            &lt;tns:LogMessage>&#xa;                &lt;xsl:value-of select=&quot;'Emp_SalTitleReq'&quot;/>&#xa;            &lt;/tns:LogMessage>&#xa;            &lt;tns:Timestamp>&#xa;                &lt;xsl:value-of select=&quot;current-dateTime()&quot;/>&#xa;            &lt;/tns:Timestamp>&#xa;            &lt;tns:Payload>&#xa;                &lt;xsl:value-of select=&quot;tib:render-xml($operationIn.parameters)&quot;/>&#xa;            &lt;/tns:Payload>&#xa;            &lt;tns:Exception>&#xa;                &lt;tns:MessageCode>&#xa;                    &lt;xsl:value-of select=&quot;$FaultDetails/MsgCode&quot;/>&#xa;                &lt;/tns:MessageCode>&#xa;                &lt;tns:ExceptionMessage>&#xa;                    &lt;xsl:value-of select=&quot;$FaultDetails/Msg&quot;/>&#xa;                &lt;/tns:ExceptionMessage>&#xa;                &lt;tns:StackTrace>&#xa;                    &lt;xsl:value-of select=&quot;$FaultDetails/StackTrace&quot;/>&#xa;                &lt;/tns:StackTrace>&#xa;            &lt;/tns:Exception>&#xa;        &lt;/tns:LogExceptionHandler>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                                 </tibex:inputBindings>
                                 <tibex:CallProcess spawn="true"
                                     subProcessName="es_common_framework_sh.LogHandler" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
@@ -1159,6 +1106,8 @@
                         </bpws:extensionActivity>
                         <bpws:extensionActivity>
                             <tibex:activityExtension
+                                expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns6=&quot;http://www.tibco.com/namespaces/tnt/plugins/jdbc+66dc66ea-ef7f-49f4-8744-ccfedd3fdb73+input&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;FaultDetails&quot;/>&lt;xsl:param name=&quot;operationIn&quot;/>&lt;xsl:template name=&quot;InsertErrorResponse-input&quot; match=&quot;/&quot;>&lt;tns6:jdbcUpdateActivityInput>&lt;ProcessName>&lt;xsl:value-of select=&quot;'AddEmpSalDetails'&quot;/>&lt;/ProcessName>&lt;ResponseCode>&lt;xsl:value-of select=&quot;$FaultDetails/MsgCode&quot;/>&lt;/ResponseCode>&lt;ResponseMsg>&lt;xsl:value-of select=&quot;concat($FaultDetails/Msg,' ', $FaultDetails/StackTrace)&quot;/>&lt;/ResponseMsg>&lt;CorelationID>&lt;xsl:choose>&lt;xsl:when test=&quot;exists($operationIn/parameters/tns4:Emp_SalTitleReq/tns4:CorelationID)&quot;>&lt;xsl:value-of select=&quot;$operationIn/parameters/tns4:Emp_SalTitleReq/tns4:CorelationID&quot;/>&lt;/xsl:when>&lt;xsl:otherwise>&lt;xsl:attribute name=&quot;xsi:nil&quot;>true&lt;/xsl:attribute>&lt;/xsl:otherwise>&lt;/xsl:choose>&lt;/CorelationID>&lt;/tns6:jdbcUpdateActivityInput>&lt;/xsl:template>&lt;/xsl:stylesheet>"
+                                expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"
                                 inputVariable="InsertErrorResponse-input"
                                 name="InsertErrorResponse"
                                 outputVariable="InsertErrorResponse"
@@ -1168,7 +1117,7 @@
                                 </bpws:targets>
                                 <tibex:inputBindings>
                                     <tibex:inputBinding
-                                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns6=&quot;http://www.tibco.com/namespaces/tnt/plugins/jdbc+66dc66ea-ef7f-49f4-8744-ccfedd3fdb73+input&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;SetTxID&quot;/>&lt;xsl:param name=&quot;FaultDetails&quot;/>&lt;xsl:template name=&quot;InsertErrorResponse-input&quot; match=&quot;/&quot;>&lt;tns6:jdbcUpdateActivityInput>&lt;ProcessName>&lt;xsl:value-of select=&quot;'AddEmpSalDetails'&quot;/>&lt;/ProcessName>&lt;ResponseCode>&lt;xsl:value-of select=&quot;$FaultDetails/MsgCode&quot;/>&lt;/ResponseCode>&lt;ResponseMsg>&lt;xsl:value-of select=&quot;concat($FaultDetails/Msg,' ', $FaultDetails/StackTrace)&quot;/>&lt;/ResponseMsg>&lt;CorelationID>&lt;xsl:value-of select=&quot;$SetTxID&quot;/>&lt;/CorelationID>&lt;/tns6:jdbcUpdateActivityInput>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns6=&quot;http://www.tibco.com/namespaces/tnt/plugins/jdbc+66dc66ea-ef7f-49f4-8744-ccfedd3fdb73+input&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:param name=&quot;operationIn.parameters&quot;/>&#xa;    &lt;xsl:param name=&quot;FaultDetails&quot;/>&#xa;    &lt;xsl:template name=&quot;InsertErrorResponse-input&quot; match=&quot;/&quot;>&#xa;        &lt;tns6:jdbcUpdateActivityInput>&#xa;            &lt;ProcessName>&#xa;                &lt;xsl:value-of select=&quot;'AddEmpSalDetails'&quot;/>&#xa;            &lt;/ProcessName>&#xa;            &lt;ResponseCode>&#xa;                &lt;xsl:value-of select=&quot;$FaultDetails/MsgCode&quot;/>&#xa;            &lt;/ResponseCode>&#xa;            &lt;ResponseMsg>&#xa;                &lt;xsl:value-of select=&quot;concat($FaultDetails/Msg,' ', $FaultDetails/StackTrace)&quot;/>&#xa;            &lt;/ResponseMsg>&#xa;            &lt;CorelationID>&#xa;                &lt;xsl:choose>&#xa;                    &lt;xsl:when test=&quot;exists($operationIn.parameters/tns4:CorelationID)&quot;>&#xa;                        &lt;xsl:value-of select=&quot;$operationIn.parameters/tns4:CorelationID&quot;/>&#xa;                    &lt;/xsl:when>&#xa;                    &lt;xsl:otherwise>&#xa;                        &lt;xsl:attribute name=&quot;xsi:nil&quot;>true&lt;/xsl:attribute>&#xa;                    &lt;/xsl:otherwise>&#xa;                &lt;/xsl:choose>&#xa;            &lt;/CorelationID>&#xa;        &lt;/tns6:jdbcUpdateActivityInput>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                                 </tibex:inputBindings>
                                 <tibex:config>
                                     <bwext:BWActivity
@@ -1208,10 +1157,9 @@
         </bpws:faultHandlers>
         <bpws:flow name="flow">
             <bpws:links>
-                <bpws:link name="StartToLogHandler" tibex:linkType="SUCCESS"/>
+                <bpws:link name="StartToReply" tibex:linkType="SUCCESS"/>
                 <bpws:link name="LogHandlerToJDBCUpdate" tibex:linkType="SUCCESS"/>
                 <bpws:link name="JDBCUpdateToLogHandler1" tibex:linkType="SUCCESS"/>
-                <bpws:link name="SetTxIDToEnd" tibex:linkType="SUCCESS"/>
                 <bpws:link name="EndToStartLog" tibex:linkType="SUCCESS"/>
                 <bpws:link name="EndLogToInsertResponse" tibex:linkType="SUCCESS"/>
             </bpws:links>
@@ -1220,28 +1168,30 @@
                 portType="ns1:EmpSalTitle"
                 tibex:xpdlId="47554181-e689-479d-95f2-87f397cac3b7" variable="operationIn">
                 <bpws:sources>
-                    <bpws:source linkName="StartToLogHandler"/>
+                    <bpws:source linkName="StartToReply"/>
                 </bpws:sources>
+                <bpws:correlations/>
             </bpws:receive>
             <bpws:reply name="Reply" operation="AddSalDetails"
                 partnerLink="EmpSalService" portType="ns1:EmpSalTitle"
                 tibex:xpdlId="9994ec96-4abf-46b9-8124-22a21cbb5346" variable="Reply-input">
                 <tibex:inputBindings>
                     <tibex:partBinding
-                        expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns1=&quot;http://xmlns.example.com/20221101102002&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:param name=&quot;SetTxID&quot;/>&#xa;    &lt;xsl:template name=&quot;Reply-input&quot; match=&quot;/&quot;>&#xa;        &lt;tns4:Emp_SalTitleRes>&#xa;            &lt;tns4:ResCode>&#xa;                &lt;xsl:value-of select=&quot;'200'&quot;/>&#xa;            &lt;/tns4:ResCode>&#xa;            &lt;tns4:ResMsg>&#xa;                &lt;xsl:value-of select=&quot;concat('Request Recivied with CoID: ', $SetTxID)&quot;/>&#xa;            &lt;/tns4:ResMsg>&#xa;        &lt;/tns4:Emp_SalTitleRes>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                        expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns1=&quot;http://xmlns.example.com/20221101102002&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:template name=&quot;Reply-input&quot; match=&quot;/&quot;>&#xa;        &lt;tns4:Emp_SalTitleRes>&#xa;            &lt;tns4:ResCode>&#xa;                &lt;xsl:value-of select=&quot;'200'&quot;/>&#xa;            &lt;/tns4:ResCode>&#xa;            &lt;tns4:ResMsg>&#xa;                &lt;xsl:value-of select=&quot;'Request Received'&quot;/>&#xa;            &lt;/tns4:ResMsg>&#xa;        &lt;/tns4:Emp_SalTitleRes>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                 </tibex:inputBindings>
                 <tibex:inputBinding expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns1="http://xmlns.example.com/20221101102002" xmlns:tns4="http://www.EniqueSol.org/Emp_SalTitle/V1" version="2.0"&gt;&lt;xsl:param name="SetTxID"/&gt;&lt;xsl:template name="Reply-input" match="/"&gt;&lt;tns1:AddSalDetailsResponse&gt;&lt;parameters&gt;&lt;tns4:Emp_SalTitleRes&gt;&lt;tns4:ResCode&gt;&lt;xsl:value-of select="'200'"/&gt;&lt;/tns4:ResCode&gt;&lt;tns4:ResMsg&gt;&lt;xsl:value-of select="concat('Request Recivied with CoID: ', $SetTxID)"/&gt;&lt;/tns4:ResMsg&gt;&lt;/tns4:Emp_SalTitleRes&gt;&lt;/parameters&gt;&lt;/tns1:AddSalDetailsResponse&gt;&lt;/xsl:template&gt;&lt;/xsl:stylesheet&gt;</tibex:inputBinding>
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns1="http://xmlns.example.com/20221101102002" xmlns:tns4="http://www.EniqueSol.org/Emp_SalTitle/V1" version="2.0"&gt;&lt;xsl:template name="Reply-input" match="/"&gt;&lt;tns1:AddSalDetailsResponse&gt;&lt;parameters&gt;&lt;tns4:Emp_SalTitleRes&gt;&lt;tns4:ResCode&gt;&lt;xsl:value-of select="'200'"/&gt;&lt;/tns4:ResCode&gt;&lt;tns4:ResMsg&gt;&lt;xsl:value-of select="'Request Received'"/&gt;&lt;/tns4:ResMsg&gt;&lt;/tns4:Emp_SalTitleRes&gt;&lt;/parameters&gt;&lt;/tns1:AddSalDetailsResponse&gt;&lt;/xsl:template&gt;&lt;/xsl:stylesheet&gt;</tibex:inputBinding>
                 <bpws:targets>
-                    <bpws:target linkName="SetTxIDToEnd"/>
+                    <bpws:target linkName="StartToReply"/>
                 </bpws:targets>
                 <bpws:sources>
                     <bpws:source linkName="EndToStartLog"/>
                 </bpws:sources>
+                <bpws:correlations/>
             </bpws:reply>
             <bpws:extensionActivity>
                 <tibex:extActivity
-                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.eniquesolution.com/E-Commerce/CommonFramework&quot; xmlns:tib=&quot;http://www.tibco.com/bw/xslt/custom-functions&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;_processContext&quot;/>&lt;xsl:param name=&quot;operationIn&quot;/>&lt;xsl:param name=&quot;SetTxID&quot;/>&lt;xsl:template name=&quot;StartLog-input&quot; match=&quot;/&quot;>&lt;tns:LogExceptionHandler>&lt;tns:ApplictionName>&lt;xsl:value-of select=&quot;$_processContext/ApplicationName&quot;/>&lt;/tns:ApplictionName>&lt;tns:ProcessName>&lt;xsl:value-of select=&quot;'AddEmpSalDetails'&quot;/>&lt;/tns:ProcessName>&lt;tns:LogType>&lt;xsl:value-of select=&quot;'INFO'&quot;/>&lt;/tns:LogType>&lt;tns:TransactionID>&lt;xsl:value-of select=&quot;''&quot;/>&lt;/tns:TransactionID>&lt;tns:CorrelationID>&lt;xsl:value-of select=&quot;$SetTxID&quot;/>&lt;/tns:CorrelationID>&lt;tns:MessageType>&lt;xsl:value-of select=&quot;'RequestPayload'&quot;/>&lt;/tns:MessageType>&lt;tns:LogMessage>&lt;xsl:value-of select=&quot;'Emp_SalTitleReq'&quot;/>&lt;/tns:LogMessage>&lt;tns:Timestamp>&lt;xsl:value-of select=&quot;current-dateTime()&quot;/>&lt;/tns:Timestamp>&lt;tns:Payload>&lt;xsl:value-of select=&quot;tib:render-xml($operationIn/parameters/tns4:Emp_SalTitleReq)&quot;/>&lt;/tns:Payload>&lt;/tns:LogExceptionHandler>&lt;/xsl:template>&lt;/xsl:stylesheet>"
+                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.eniquesolution.com/E-Commerce/CommonFramework&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; xmlns:tib=&quot;http://www.tibco.com/bw/xslt/custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;_processContext&quot;/>&lt;xsl:param name=&quot;operationIn&quot;/>&lt;xsl:template name=&quot;StartLog-input&quot; match=&quot;/&quot;>&lt;tns:LogExceptionHandler>&lt;tns:ApplictionName>&lt;xsl:value-of select=&quot;$_processContext/ApplicationName&quot;/>&lt;/tns:ApplictionName>&lt;tns:ProcessName>&lt;xsl:value-of select=&quot;'AddEmpSalDetails'&quot;/>&lt;/tns:ProcessName>&lt;tns:LogType>&lt;xsl:value-of select=&quot;'INFO'&quot;/>&lt;/tns:LogType>&lt;tns:status>&lt;xsl:value-of select=&quot;'success'&quot;/>&lt;/tns:status>&lt;tns:CorrelationID>&lt;xsl:value-of select=&quot;$operationIn/parameters/tns4:Emp_SalTitleReq/tns4:CorelationID&quot;/>&lt;/tns:CorrelationID>&lt;tns:MessageType>&lt;xsl:value-of select=&quot;'RequestPayload'&quot;/>&lt;/tns:MessageType>&lt;tns:LogMessage>&lt;xsl:value-of select=&quot;'Emp_SalTitleReq'&quot;/>&lt;/tns:LogMessage>&lt;tns:Timestamp>&lt;xsl:value-of select=&quot;current-dateTime()&quot;/>&lt;/tns:Timestamp>&lt;tns:Payload>&lt;xsl:value-of select=&quot;tib:render-xml($operationIn/parameters/tns4:Emp_SalTitleReq)&quot;/>&lt;/tns:Payload>&lt;/tns:LogExceptionHandler>&lt;/xsl:template>&lt;/xsl:stylesheet>"
                     expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"
                     inputVariable="StartLog-input" name="StartLog"
                     tibex:xpdlId="8f949bef-a393-4633-93d4-fbfd8305a1d3"
@@ -1254,15 +1204,17 @@
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding coercion=""
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.eniquesolution.com/E-Commerce/CommonFramework&quot; xmlns:tib=&quot;http://www.tibco.com/bw/xslt/custom-functions&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:param name=&quot;operationIn.parameters&quot;/>&#xa;    &lt;xsl:param name=&quot;_processContext&quot;/>&#xa;    &lt;xsl:param name=&quot;SetTxID&quot;/>&#xa;    &lt;xsl:template name=&quot;StartLog-input&quot; match=&quot;/&quot;>&#xa;        &lt;tns:LogExceptionHandler>&#xa;            &lt;tns:ApplictionName>&#xa;                &lt;xsl:value-of select=&quot;$_processContext/ApplicationName&quot;/>&#xa;            &lt;/tns:ApplictionName>&#xa;            &lt;tns:ProcessName>&#xa;                &lt;xsl:value-of select=&quot;'AddEmpSalDetails'&quot;/>&#xa;            &lt;/tns:ProcessName>&#xa;            &lt;tns:LogType>&#xa;                &lt;xsl:value-of select=&quot;'INFO'&quot;/>&#xa;            &lt;/tns:LogType>&#xa;            &lt;tns:TransactionID>&#xa;                &lt;xsl:value-of select=&quot;''&quot;/>&#xa;            &lt;/tns:TransactionID>&#xa;            &lt;tns:CorrelationID>&#xa;                &lt;xsl:value-of select=&quot;$SetTxID&quot;/>&#xa;            &lt;/tns:CorrelationID>&#xa;            &lt;tns:MessageType>&#xa;                &lt;xsl:value-of select=&quot;'RequestPayload'&quot;/>&#xa;            &lt;/tns:MessageType>&#xa;            &lt;tns:LogMessage>&#xa;                &lt;xsl:value-of select=&quot;'Emp_SalTitleReq'&quot;/>&#xa;            &lt;/tns:LogMessage>&#xa;            &lt;tns:Timestamp>&#xa;                &lt;xsl:value-of select=&quot;current-dateTime()&quot;/>&#xa;            &lt;/tns:Timestamp>&#xa;            &lt;tns:Payload>&#xa;                &lt;xsl:value-of select=&quot;tib:render-xml($operationIn.parameters)&quot;/>&#xa;            &lt;/tns:Payload>&#xa;        &lt;/tns:LogExceptionHandler>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.eniquesolution.com/E-Commerce/CommonFramework&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; xmlns:tib=&quot;http://www.tibco.com/bw/xslt/custom-functions&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:param name=&quot;operationIn.parameters&quot;/>&#xa;    &lt;xsl:param name=&quot;_processContext&quot;/>&#xa;    &lt;xsl:template name=&quot;StartLog-input&quot; match=&quot;/&quot;>&#xa;        &lt;tns:LogExceptionHandler>&#xa;            &lt;tns:ApplictionName>&#xa;                &lt;xsl:value-of select=&quot;$_processContext/ApplicationName&quot;/>&#xa;            &lt;/tns:ApplictionName>&#xa;            &lt;tns:ProcessName>&#xa;                &lt;xsl:value-of select=&quot;'AddEmpSalDetails'&quot;/>&#xa;            &lt;/tns:ProcessName>&#xa;            &lt;tns:LogType>&#xa;                &lt;xsl:value-of select=&quot;'INFO'&quot;/>&#xa;            &lt;/tns:LogType>&#xa;            &lt;tns:status>&#xa;                &lt;xsl:value-of select=&quot;'success'&quot;/>&#xa;            &lt;/tns:status>&#xa;            &lt;tns:CorrelationID>&#xa;                &lt;xsl:value-of select=&quot;$operationIn.parameters/tns4:CorelationID&quot;/>&#xa;            &lt;/tns:CorrelationID>&#xa;            &lt;tns:MessageType>&#xa;                &lt;xsl:value-of select=&quot;'RequestPayload'&quot;/>&#xa;            &lt;/tns:MessageType>&#xa;            &lt;tns:LogMessage>&#xa;                &lt;xsl:value-of select=&quot;'Emp_SalTitleReq'&quot;/>&#xa;            &lt;/tns:LogMessage>&#xa;            &lt;tns:Timestamp>&#xa;                &lt;xsl:value-of select=&quot;current-dateTime()&quot;/>&#xa;            &lt;/tns:Timestamp>&#xa;            &lt;tns:Payload>&#xa;                &lt;xsl:value-of select=&quot;tib:render-xml($operationIn.parameters)&quot;/>&#xa;            &lt;/tns:Payload>&#xa;        &lt;/tns:LogExceptionHandler>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:CallProcess spawn="true"
                         subProcessName="es_common_framework_sh.LogHandler" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
                 </tibex:extActivity>
             </bpws:extensionActivity>
             <bpws:extensionActivity>
-                <tibex:extActivity inputVariable="EndLog-input"
-                    name="EndLog"
+                <tibex:extActivity
+                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.eniquesolution.com/E-Commerce/CommonFramework&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;_processContext&quot;/>&lt;xsl:param name=&quot;operationIn&quot;/>&lt;xsl:template name=&quot;EndLog-input&quot; match=&quot;/&quot;>&lt;tns:LogExceptionHandler>&lt;tns:ApplictionName>&lt;xsl:value-of select=&quot;$_processContext/ApplicationName&quot;/>&lt;/tns:ApplictionName>&lt;tns:ProcessName>&lt;xsl:value-of select=&quot;'AddEmpSalDetails'&quot;/>&lt;/tns:ProcessName>&lt;tns:LogType>&lt;xsl:value-of select=&quot;'INFO'&quot;/>&lt;/tns:LogType>&lt;tns:status>&lt;xsl:value-of select=&quot;'success'&quot;/>&lt;/tns:status>&lt;tns:CorrelationID>&lt;xsl:value-of select=&quot;$operationIn/parameters/tns4:Emp_SalTitleReq/tns4:CorelationID&quot;/>&lt;/tns:CorrelationID>&lt;tns:MessageType>&lt;xsl:value-of select=&quot;'ResponsePayload'&quot;/>&lt;/tns:MessageType>&lt;tns:LogMessage>&lt;xsl:value-of select=&quot;'Emp_SalTitleRes'&quot;/>&lt;/tns:LogMessage>&lt;tns:Timestamp>&lt;xsl:value-of select=&quot;current-dateTime()&quot;/>&lt;/tns:Timestamp>&lt;tns:Payload>&lt;xsl:value-of select=&quot;'DetailsInserted'&quot;/>&lt;/tns:Payload>&lt;/tns:LogExceptionHandler>&lt;/xsl:template>&lt;/xsl:stylesheet>"
+                    expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"
+                    inputVariable="EndLog-input" name="EndLog"
                     tibex:xpdlId="fbb6f37e-4f84-425a-8175-66e3477feb85"
                     type="bw.generalactivities.callprocess" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
@@ -1273,7 +1225,7 @@
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding coercion=""
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.eniquesolution.com/E-Commerce/CommonFramework&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; xmlns:tib=&quot;http://www.tibco.com/bw/xslt/custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;_processContext&quot;/>&lt;xsl:param name=&quot;SetTxID&quot;/>&lt;xsl:template name=&quot;EndLog-input&quot; match=&quot;/&quot;>&lt;tns:LogExceptionHandler>&lt;tns:ApplictionName>&lt;xsl:value-of select=&quot;$_processContext/ApplicationName&quot;/>&lt;/tns:ApplictionName>&lt;tns:ProcessName>&lt;xsl:value-of select=&quot;'AddEmpSalDetails'&quot;/>&lt;/tns:ProcessName>&lt;tns:LogType>&lt;xsl:value-of select=&quot;'INFO'&quot;/>&lt;/tns:LogType>&lt;tns:TransactionID>&lt;xsl:value-of select=&quot;''&quot;/>&lt;/tns:TransactionID>&lt;tns:CorrelationID>&lt;xsl:value-of select=&quot;$SetTxID&quot;/>&lt;/tns:CorrelationID>&lt;tns:MessageType>&lt;xsl:value-of select=&quot;'ResponsePayload'&quot;/>&lt;/tns:MessageType>&lt;tns:LogMessage>&lt;xsl:value-of select=&quot;'Emp_SalTitleRes'&quot;/>&lt;/tns:LogMessage>&lt;tns:Timestamp>&lt;xsl:value-of select=&quot;current-dateTime()&quot;/>&lt;/tns:Timestamp>&lt;tns:Payload>&lt;xsl:value-of select=&quot;'DetailsInserted'&quot;/>&lt;/tns:Payload>&lt;/tns:LogExceptionHandler>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.eniquesolution.com/E-Commerce/CommonFramework&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:param name=&quot;operationIn.parameters&quot;/>&#xa;    &lt;xsl:param name=&quot;_processContext&quot;/>&#xa;    &lt;xsl:template name=&quot;EndLog-input&quot; match=&quot;/&quot;>&#xa;        &lt;tns:LogExceptionHandler>&#xa;            &lt;tns:ApplictionName>&#xa;                &lt;xsl:value-of select=&quot;$_processContext/ApplicationName&quot;/>&#xa;            &lt;/tns:ApplictionName>&#xa;            &lt;tns:ProcessName>&#xa;                &lt;xsl:value-of select=&quot;'AddEmpSalDetails'&quot;/>&#xa;            &lt;/tns:ProcessName>&#xa;            &lt;tns:LogType>&#xa;                &lt;xsl:value-of select=&quot;'INFO'&quot;/>&#xa;            &lt;/tns:LogType>&#xa;            &lt;tns:status>&#xa;                &lt;xsl:value-of select=&quot;'success'&quot;/>&#xa;            &lt;/tns:status>&#xa;            &lt;tns:CorrelationID>&#xa;                &lt;xsl:value-of select=&quot;$operationIn.parameters/tns4:CorelationID&quot;/>&#xa;            &lt;/tns:CorrelationID>&#xa;            &lt;tns:MessageType>&#xa;                &lt;xsl:value-of select=&quot;'ResponsePayload'&quot;/>&#xa;            &lt;/tns:MessageType>&#xa;            &lt;tns:LogMessage>&#xa;                &lt;xsl:value-of select=&quot;'Emp_SalTitleRes'&quot;/>&#xa;            &lt;/tns:LogMessage>&#xa;            &lt;tns:Timestamp>&#xa;                &lt;xsl:value-of select=&quot;current-dateTime()&quot;/>&#xa;            &lt;/tns:Timestamp>&#xa;            &lt;tns:Payload>&#xa;                &lt;xsl:value-of select=&quot;'DetailsInserted'&quot;/>&#xa;            &lt;/tns:Payload>&#xa;        &lt;/tns:LogExceptionHandler>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:CallProcess spawn="true"
                         subProcessName="es_common_framework_sh.LogHandler" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
@@ -1281,7 +1233,7 @@
             </bpws:extensionActivity>
             <bpws:extensionActivity>
                 <tibex:activityExtension
-                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns2=&quot;http://www.tibco.com/namespaces/tnt/plugins/jdbc+c368dfa5-e8e1-44d3-a084-d0e7f9aca874+input&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;operationIn&quot;/>&lt;xsl:template name=&quot;InsertSalDetails-input&quot; match=&quot;/&quot;>&lt;tns2:jdbcUpdateActivityInput>&lt;EmpCode>&lt;xsl:value-of select=&quot;$operationIn/parameters/tns4:Emp_SalTitleReq/tns4:EmpCode&quot;/>&lt;/EmpCode>&lt;EmpName>&lt;xsl:value-of select=&quot;$operationIn/parameters/tns4:Emp_SalTitleReq/tns4:EmpName&quot;/>&lt;/EmpName>&lt;Title>&lt;xsl:value-of select=&quot;$operationIn/parameters/tns4:Emp_SalTitleReq/tns4:Title&quot;/>&lt;/Title>&lt;CurrentSal>&lt;xsl:value-of select=&quot;$operationIn/parameters/tns4:Emp_SalTitleReq/tns4:CurrentSal&quot;/>&lt;/CurrentSal>&lt;lastModifiedDate>&lt;xsl:value-of select=&quot;format-dateTime($operationIn/parameters/tns4:Emp_SalTitleReq/tns4:lastModifiedDate, &amp;quot;[Y0001]-[M01]-[D01] [H01]:[m01]:[s01].[f001]&amp;quot;)&quot;/>&lt;/lastModifiedDate>&lt;/tns2:jdbcUpdateActivityInput>&lt;/xsl:template>&lt;/xsl:stylesheet>"
+                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns2=&quot;http://www.tibco.com/namespaces/tnt/plugins/jdbc+c368dfa5-e8e1-44d3-a084-d0e7f9aca874+input&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;operationIn&quot;/>&lt;xsl:template name=&quot;InsertSalDetails-input&quot; match=&quot;/&quot;>&lt;tns2:jdbcUpdateActivityInput>&lt;EmpCode>&lt;xsl:value-of select=&quot;$operationIn/parameters/tns4:Emp_SalTitleReq/tns4:Emp_SalTitle/tns4:EmpCode&quot;/>&lt;/EmpCode>&lt;EmpName>&lt;xsl:value-of select=&quot;$operationIn/parameters/tns4:Emp_SalTitleReq/tns4:Emp_SalTitle/tns4:EmpName&quot;/>&lt;/EmpName>&lt;Title>&lt;xsl:value-of select=&quot;$operationIn/parameters/tns4:Emp_SalTitleReq/tns4:Emp_SalTitle/tns4:Title&quot;/>&lt;/Title>&lt;CurrentSal>&lt;xsl:value-of select=&quot;$operationIn/parameters/tns4:Emp_SalTitleReq/tns4:Emp_SalTitle/tns4:CurrentSal&quot;/>&lt;/CurrentSal>&lt;lastModifiedDate>&lt;xsl:value-of select=&quot;format-dateTime($operationIn/parameters/tns4:Emp_SalTitleReq/tns4:Emp_SalTitle/tns4:lastModifiedDate, &amp;quot;[Y0001]-[M01]-[D01] [H01]:[m01]:[s01].[f001]&amp;quot;)&quot;/>&lt;/lastModifiedDate>&lt;/tns2:jdbcUpdateActivityInput>&lt;/xsl:template>&lt;/xsl:stylesheet>"
                     expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"
                     inputVariable="InsertSalDetails-input"
                     name="InsertSalDetails"
@@ -1295,7 +1247,7 @@
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns2=&quot;http://www.tibco.com/namespaces/tnt/plugins/jdbc+c368dfa5-e8e1-44d3-a084-d0e7f9aca874+input&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:param name=&quot;operationIn.parameters&quot;/>&#xa;    &lt;xsl:template name=&quot;InsertSalDetails-input&quot; match=&quot;/&quot;>&#xa;        &lt;tns2:jdbcUpdateActivityInput>&#xa;            &lt;EmpCode>&#xa;                &lt;xsl:value-of select=&quot;$operationIn.parameters/tns4:EmpCode&quot;/>&#xa;            &lt;/EmpCode>&#xa;            &lt;EmpName>&#xa;                &lt;xsl:value-of select=&quot;$operationIn.parameters/tns4:EmpName&quot;/>&#xa;            &lt;/EmpName>&#xa;            &lt;Title>&#xa;                &lt;xsl:value-of select=&quot;$operationIn.parameters/tns4:Title&quot;/>&#xa;            &lt;/Title>&#xa;            &lt;CurrentSal>&#xa;                &lt;xsl:value-of select=&quot;$operationIn.parameters/tns4:CurrentSal&quot;/>&#xa;            &lt;/CurrentSal>&#xa;            &lt;lastModifiedDate>&#xa;                &lt;xsl:value-of select=&quot;format-dateTime($operationIn.parameters/tns4:lastModifiedDate, &amp;quot;[Y0001]-[M01]-[D01] [H01]:[m01]:[s01].[f001]&amp;quot;)&quot;/>&#xa;            &lt;/lastModifiedDate>&#xa;        &lt;/tns2:jdbcUpdateActivityInput>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns2=&quot;http://www.tibco.com/namespaces/tnt/plugins/jdbc+c368dfa5-e8e1-44d3-a084-d0e7f9aca874+input&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:param name=&quot;operationIn.parameters&quot;/>&#xa;    &lt;xsl:template name=&quot;InsertSalDetails-input&quot; match=&quot;/&quot;>&#xa;        &lt;tns2:jdbcUpdateActivityInput>&#xa;            &lt;EmpCode>&#xa;                &lt;xsl:value-of select=&quot;$operationIn.parameters/tns4:Emp_SalTitle/tns4:EmpCode&quot;/>&#xa;            &lt;/EmpCode>&#xa;            &lt;EmpName>&#xa;                &lt;xsl:value-of select=&quot;$operationIn.parameters/tns4:Emp_SalTitle/tns4:EmpName&quot;/>&#xa;            &lt;/EmpName>&#xa;            &lt;Title>&#xa;                &lt;xsl:value-of select=&quot;$operationIn.parameters/tns4:Emp_SalTitle/tns4:Title&quot;/>&#xa;            &lt;/Title>&#xa;            &lt;CurrentSal>&#xa;                &lt;xsl:value-of select=&quot;$operationIn.parameters/tns4:Emp_SalTitle/tns4:CurrentSal&quot;/>&#xa;            &lt;/CurrentSal>&#xa;            &lt;lastModifiedDate>&#xa;                &lt;xsl:value-of select=&quot;format-dateTime($operationIn.parameters/tns4:Emp_SalTitle/tns4:lastModifiedDate, &amp;quot;[Y0001]-[M01]-[D01] [H01]:[m01]:[s01].[f001]&amp;quot;)&quot;/>&#xa;            &lt;/lastModifiedDate>&#xa;        &lt;/tns2:jdbcUpdateActivityInput>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity
@@ -1319,9 +1271,8 @@
                                     <PreparedParameters
                                     DataType="12"
                                     DataTypeDisplayValue="VARCHAR" ParameterName="Title"/>
-                                    <PreparedParameters
-                                    DataType="12"
-                                    DataTypeDisplayValue="VARCHAR" ParameterName="CurrentSal"/>
+                                    <PreparedParameters DataType="6"
+                                    DataTypeDisplayValue="FLOAT" ParameterName="CurrentSal"/>
                                     <PreparedParameters
                                     DataType="12"
                                     DataTypeDisplayValue="VARCHAR" ParameterName="lastModifiedDate"/>
@@ -1333,26 +1284,9 @@
                 </tibex:activityExtension>
             </bpws:extensionActivity>
             <bpws:extensionActivity>
-                <tibex:extActivity inputVariable="SetTxID-input"
-                    name="SetTxID" outputVariable="SetTxID"
-                    tibex:xpdlId="d2eb14de-7358-489b-bf28-f02bba242a74"
-                    type="bw.internal.setSharedVariable" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
-                    <bpws:targets>
-                        <bpws:target linkName="StartToLogHandler"/>
-                    </bpws:targets>
-                    <bpws:sources>
-                        <bpws:source linkName="SetTxIDToEnd"/>
-                    </bpws:sources>
-                    <tibex:inputBindings>
-                        <tibex:inputBinding coercion=""
-                            expression="tib:uuid()" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
-                    </tibex:inputBindings>
-                    <tibex:SetSharedVariable inline="true"
-                        variableName="TrxID" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
-                </tibex:extActivity>
-            </bpws:extensionActivity>
-            <bpws:extensionActivity>
                 <tibex:activityExtension
+                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns5=&quot;http://www.tibco.com/namespaces/tnt/plugins/jdbc+07045964-4646-4060-9efc-949b64a1bad3+input&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;operationIn&quot;/>&lt;xsl:template name=&quot;InsertResponse-input&quot; match=&quot;/&quot;>&lt;tns5:jdbcUpdateActivityInput>&lt;ProcessName>&lt;xsl:value-of select=&quot;'AddEmpSalDetails'&quot;/>&lt;/ProcessName>&lt;ResponseCode>&lt;xsl:value-of select=&quot;'200'&quot;/>&lt;/ResponseCode>&lt;ResponseMsg>&lt;xsl:value-of select=&quot;'Salary/Title Details Inserted'&quot;/>&lt;/ResponseMsg>&lt;CorelationID>&lt;xsl:choose>&lt;xsl:when test=&quot;exists($operationIn/parameters/tns4:Emp_SalTitleReq/tns4:CorelationID)&quot;>&lt;xsl:value-of select=&quot;$operationIn/parameters/tns4:Emp_SalTitleReq/tns4:CorelationID&quot;/>&lt;/xsl:when>&lt;xsl:otherwise>&lt;xsl:attribute name=&quot;xsi:nil&quot;>true&lt;/xsl:attribute>&lt;/xsl:otherwise>&lt;/xsl:choose>&lt;/CorelationID>&lt;/tns5:jdbcUpdateActivityInput>&lt;/xsl:template>&lt;/xsl:stylesheet>"
+                    expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"
                     inputVariable="InsertResponse-input"
                     name="InsertResponse"
                     outputVariable="InsertResponse"
@@ -1362,7 +1296,7 @@
                     </bpws:targets>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns5=&quot;http://www.tibco.com/namespaces/tnt/plugins/jdbc+07045964-4646-4060-9efc-949b64a1bad3+input&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;SetTxID&quot;/>&lt;xsl:template name=&quot;InsertResponse-input&quot; match=&quot;/&quot;>&lt;tns5:jdbcUpdateActivityInput>&lt;ProcessName>&lt;xsl:value-of select=&quot;'AddEmpSalDetails'&quot;/>&lt;/ProcessName>&lt;ResponseCode>&lt;xsl:value-of select=&quot;'200'&quot;/>&lt;/ResponseCode>&lt;ResponseMsg>&lt;xsl:value-of select=&quot;'Salary/Title Details Inserted'&quot;/>&lt;/ResponseMsg>&lt;CorelationID>&lt;xsl:value-of select=&quot;$SetTxID&quot;/>&lt;/CorelationID>&lt;/tns5:jdbcUpdateActivityInput>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns5=&quot;http://www.tibco.com/namespaces/tnt/plugins/jdbc+07045964-4646-4060-9efc-949b64a1bad3+input&quot; xmlns:tns4=&quot;http://www.EniqueSol.org/Emp_SalTitle/V1&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:param name=&quot;operationIn.parameters&quot;/>&#xa;    &lt;xsl:template name=&quot;InsertResponse-input&quot; match=&quot;/&quot;>&#xa;        &lt;tns5:jdbcUpdateActivityInput>&#xa;            &lt;ProcessName>&#xa;                &lt;xsl:value-of select=&quot;'AddEmpSalDetails'&quot;/>&#xa;            &lt;/ProcessName>&#xa;            &lt;ResponseCode>&#xa;                &lt;xsl:value-of select=&quot;'200'&quot;/>&#xa;            &lt;/ResponseCode>&#xa;            &lt;ResponseMsg>&#xa;                &lt;xsl:value-of select=&quot;'Salary/Title Details Inserted'&quot;/>&#xa;            &lt;/ResponseMsg>&#xa;            &lt;CorelationID>&#xa;                &lt;xsl:choose>&#xa;                    &lt;xsl:when test=&quot;exists($operationIn.parameters/tns4:CorelationID)&quot;>&#xa;                        &lt;xsl:value-of select=&quot;$operationIn.parameters/tns4:CorelationID&quot;/>&#xa;                    &lt;/xsl:when>&#xa;                    &lt;xsl:otherwise>&#xa;                        &lt;xsl:attribute name=&quot;xsi:nil&quot;>true&lt;/xsl:attribute>&#xa;                    &lt;/xsl:otherwise>&#xa;                &lt;/xsl:choose>&#xa;            &lt;/CorelationID>&#xa;        &lt;/tns5:jdbcUpdateActivityInput>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity

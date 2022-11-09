@@ -30,13 +30,13 @@
     <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     	<xsd:import
     		namespace="http://www.EniqueSol.org/Employee_Prof/V1"
-    		schemaLocation="../Schemas/Employee_Prof.xsd">
+    		schemaLocation="../../CommonInteface/Schemas/Employee_Prof.xsd">
     	</xsd:import>
     	<xsd:import namespace="http://www.EniqueSol.org/WebFault"
     		schemaLocation="../../CommonInterface/Schemas/WebFault.xsd">
     	</xsd:import></xsd:schema></wsdl:types>
   <wsdl:message name="AddEmp_ProfRequest">
-    <wsdl:part element="xsd1:Employee_ProfReq" name="parameters"/>
+    <wsdl:part element="xsd1:Employee_ProfReq" name="parameters" />
   </wsdl:message>
   <wsdl:message name="AddEmp_ProfResponse">
     <wsdl:part element="xsd1:Employee_ProfRes" name="parameters"/>

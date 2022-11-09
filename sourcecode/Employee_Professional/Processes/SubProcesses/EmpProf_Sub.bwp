@@ -406,7 +406,7 @@
         productVersion="6.8.0 V55 2021-11-10" scalable="true"
         singleton="true" stateless="false" type="IT"/>
     <tibex:ProcessInterface context=""
-        input="{http://www.EniqueSol.org/Employee_Prof/V1}Employee_ProfReq" output="{http://www.EniqueSol.org/Employee_Prof/V1}Employee_ProfRes">
+        input="{http://www.EniqueSol.org/Employee_Prof/V1}Employee_Prof" output="{http://www.EniqueSol.org/Employee_Prof/V1}Employee_ProfRes">
         <tibex:errorList>
             <tibex:error
                 error="{http://www.EniqueSol.org/WebFault}fault" name="fault"/>
@@ -667,13 +667,13 @@
     <bpws:import importType="http://www.w3.org/2001/XMLSchema"
         location="../../../CommonInterface/Schemas/WebFault.xsd" namespace="http://www.EniqueSol.org/WebFault"/>
     <bpws:import importType="http://www.w3.org/2001/XMLSchema"
-        location="../../Schemas/Employee_Prof.xsd" namespace="http://www.EniqueSol.org/Employee_Prof/V1"/>
+        location="../../../CommonInterface/Schemas/Employee_Prof.xsd" namespace="http://www.EniqueSol.org/Employee_Prof/V1"/>
     <bpws:variables>
         <bpws:variable element="ns:ProcessContext"
             name="_processContext" sca-bpel:internal="true"/>
         <bpws:variable element="ns0:Employee_ProfRes" name="End-input"
             sca-bpel:internal="true" tibex:parameter="out"/>
-        <bpws:variable element="ns0:Employee_ProfReq" name="Start"
+        <bpws:variable element="ns0:Employee_Prof" name="Start"
             sca-bpel:internal="true" tibex:parameter="in"/>
         <bpws:variable element="ns1:jdbcUpdateActivityInput"
             name="InsertEmp_ProfDetails-input" sca-bpel:internal="true"/>
