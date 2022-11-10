@@ -282,7 +282,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//CommonInterface///Connections/HTTP/Port</name>
-			<value>9216</value>
+			<value>13465</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>Integer</type>

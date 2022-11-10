@@ -785,7 +785,7 @@
                                     <value batchUpdate="true"
                                     interpretEmptyStringAsNull="true"
                                     sharedResourceProperty="jdbcProperty"
-                                    sqlStatement="INSERT INTO Emp_ProfessionDetails&#xa;  VALUES(?,?,?,?,?,?,?,?,?,?,?)"
+                                    sqlStatement="INSERT INTO Emp_ProfessionDetails&#xa;  VALUES(?,?,?,?,?,?,to_date(?,'YYYY-MM-DD'),?,?,?,?)"
                                     timeout="10" xsi:type="jdbcPalette:JDBCUpdateActivity">
                                     <PreparedParameters
                                     DataType="12"
